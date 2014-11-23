@@ -3,7 +3,6 @@ package jmxbook.ch13;
 import javax.naming.Context;
 import javax.naming.InitialContext;
 import javax.naming.NamingException;
-import javax.jms.TopicPublisher;
 import javax.jms.TopicConnectionFactory;
 import javax.jms.TopicConnection;
 import javax.jms.TopicSession;
