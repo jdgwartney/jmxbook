@@ -5,6 +5,8 @@
   <classpathentry kind="output" path="target/classes"/>
   <classpathentry kind="var" path="M2_REPO/javax/jms/jms-api/1.1-rev-1/jms-api-1.1-rev-1.jar"/>
   <classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+  <classpathentry kind="var" path="M2_REPO/com/manning/jmxbook.ch3/1.0.0/jmxbook.ch3-1.0.0.jar"/>
+  <classpathentry kind="var" path="M2_REPO/com/manning/jmxbook.ch2/1.0.0/jmxbook.ch2-1.0.0.jar"/>
   <classpathentry kind="var" path="M2_REPO/com/betfair/net/java/opendmk/core/1.0-b02/core-1.0-b02.jar"/>
   <classpathentry kind="var" path="M2_REPO/net/jini/jini-core/2.1/jini-core-2.1.jar"/>
   <classpathentry kind="var" path="M2_REPO/net/jini/jini-ext/2.1/jini-ext-2.1.jar"/>
