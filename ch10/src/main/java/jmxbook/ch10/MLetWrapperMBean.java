@@ -1,4 +1,4 @@
-package jmxbook. ch10;
+package jmxbook.ch10;
 
 import javax.management.loading.*;
 

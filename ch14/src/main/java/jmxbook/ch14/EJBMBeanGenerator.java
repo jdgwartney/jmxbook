@@ -77,12 +77,12 @@ public class EJBMBeanGenerator
     out.println( " " );
     out.println();
 
-    Enumeration enum = atts.keys();
+    Enumeration e = atts.keys();
     int index = 0;
 
-    while( enum.hasMoreElements() )
+    while( e.hasMoreElements() )
     {
-      String attName = ( String ) enum.nextElement();
+      String attName = ( String ) e.nextElement();
       String rw = ( String ) atts.get( attName );
       String desc = "MBean attribute";
       String type = ( String ) attTypes.get( attName );
@@ -92,15 +92,15 @@ public class EJBMBeanGenerator
       index++;
     }//while
 
-    enum = ops.elements();
+    e = ops.elements();
     index = 0;
     out.println( " String[] types = null;");
     out.println( " String[] argNames = null;");
     out.println( " String[] argDescs = null;");
 
-    while( enum.hasMoreElements() )
+    while( e.hasMoreElements() )
     {
-      String opName = ( String ) enum.nextElement();
+      String opName = ( String ) e.nextElement();
       String rType = ( String ) opsReturns.get( opName );
       String desc = "MBean operation";
       String[] types = ( String[] ) opsArgTypes.get( opName );

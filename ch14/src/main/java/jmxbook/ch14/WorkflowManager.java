@@ -116,7 +116,7 @@ public class WorkflowManager implements DynamicMBean
 
     return rvalue;
   }
-
+  
   private WorkflowHome lookUpHome() throws Exception
   {
     Context ctx = new InitialContext();
