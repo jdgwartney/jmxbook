@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 
+                             http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.manning</groupId>
+    <artifactId>jmxbook</artifactId>
+    <version>1.0.0</version>
+  </parent>
+  <artifactId>jmxbook.ch11</artifactId>
+  <packaging>jar</packaging>
+  <name>ch11</name>
+
+  <properties>
+    <exec.mainClass>jmxbook.ch3.JMXBookAgent</exec.mainClass>
+  </properties>
+
+  <dependencies>
+  </dependencies>
+
+</project>
