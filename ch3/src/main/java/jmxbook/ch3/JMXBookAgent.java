@@ -3,9 +3,11 @@ package jmxbook.ch3;
 import com.sun.jdmk.comm.*;
 import javax.management.*;
 /*----------[ Added in Chapter 9 ]----------------*/
+/*
 import jmxbook.ch9.TCPServer;
 import jmxbook.ch9.JINIServer;
 import java.rmi.*;
+*/
 /*----------[ Added in Chapter 9 ]----------------*/
 
 /*----------[ Added in Chapter 12 ]----------------*/
@@ -93,6 +95,7 @@ public class JMXBookAgent
   /*----------[ Added in Chapter 9 ]----------------*/
   protected void startTCPAdapter()
   {
+/*
     TCPServer tcp = new TCPServer();
     ObjectName adapterName = null;
     try
@@ -105,6 +108,7 @@ public class JMXBookAgent
     {
       e.printStackTrace();
     }
+*/
   }
 
   protected void startJINIConnector()

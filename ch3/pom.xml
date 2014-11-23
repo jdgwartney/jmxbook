@@ -23,6 +23,13 @@
       <artifactId>jmxbook.ch2</artifactId>
       <version>1.0.0</version>
     </dependency>
+<!--
+    <dependency>
+      <groupId>com.manning</groupId>
+      <artifactId>jmxbook.ch9</artifactId>
+      <version>1.0.0</version>
+    </dependency>
+-->
   </dependencies>
 
 </project>

@@ -9,7 +9,9 @@
     <artifactId>jmxbook</artifactId>
     <version>1.0.0</version>
   </parent>
+  <groupId>com.manning</groupId>
   <artifactId>jmxbook.ch2</artifactId>
+  <version>1.0.0</version>
   <packaging>jar</packaging>
   <name>ch2</name>
 
