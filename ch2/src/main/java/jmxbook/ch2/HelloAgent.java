@@ -42,6 +42,7 @@ public class HelloAgent implements NotificationListener
   public static void main( String args[] )
   {
     HelloAgent agent = new HelloAgent();
+    System.out.println("HelloAgent is running");
   }
 
 }//class
